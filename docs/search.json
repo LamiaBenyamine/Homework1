@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Data science test.html",
+    "href": "Data science test.html",
+    "title": "DataScience",
+    "section": "",
+    "text": "Quarto Github Basics\n\n\n\nBeing a data scientist is about wrangling raw data then transforming it into usable visuals and insights in order to communicate and help organization make informed decisions.\nData scientists and statisticians both perform analyses to inform decision making. These specialties differ through how they handle information. Data scientists generally use more computer science, while statisticians focus more on equations and mathematical models.\nI view myself more as a data scientist based on my research and work experiences.\n\n\n\n\nSet object y definition\n\ny &lt;- density(iris$Sepal.Length)\n\nDetermine the class, type, and structure of y:\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...\n $ bw        : num 0.274\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Sepal.Length)\n $ data.name : chr \"iris$Sepal.Length\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nPlot Y, but disable printing the code"
+  },
+  {
+    "objectID": "Data science test.html#writing-test",
+    "href": "Data science test.html#writing-test",
+    "title": "DataScience",
+    "section": "",
+    "text": "Being a data scientist is about wrangling raw data then transforming it into usable visuals and insights in order to communicate and help organization make informed decisions.\nData scientists and statisticians both perform analyses to inform decision making. These specialties differ through how they handle information. Data scientists generally use more computer science, while statisticians focus more on equations and mathematical models.\nI view myself more as a data scientist based on my research and work experiences."
+  },
+  {
+    "objectID": "Data science test.html#r-test",
+    "href": "Data science test.html#r-test",
+    "title": "DataScience",
+    "section": "",
+    "text": "Set object y definition\n\ny &lt;- density(iris$Sepal.Length)\n\nDetermine the class, type, and structure of y:\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...\n $ bw        : num 0.274\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Sepal.Length)\n $ data.name : chr \"iris$Sepal.Length\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nPlot Y, but disable printing the code"
+  }
+]

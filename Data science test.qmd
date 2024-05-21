@@ -1,0 +1,38 @@
+---
+title: "DataScience"
+format: html
+editor: visual
+---
+
+# Homework1
+
+Quarto Github Basics
+
+## Writing Test
+
+-   Being a data scientist is about wrangling raw data then transforming it into usable visuals and insights in order to communicate and help organization make informed decisions.
+-   Data scientists and statisticians both perform analyses to inform decision making. These specialties differ through how they handle information. Data scientists generally use more computer science, while statisticians focus more on equations and mathematical models.
+-   I view myself more as a data scientist based on my research and work experiences.
+
+## R Test
+
+Set object y definition
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+Determine the class, type, and structure of y:
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Plot Y, but disable printing the code
+
+```{r}
+#| echo: false
+plot(y)
+```
