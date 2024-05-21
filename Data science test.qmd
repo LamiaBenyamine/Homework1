@@ -6,7 +6,11 @@ editor: visual
 
 # Homework1
 
-Quarto Github Basics
+*Lamia Benyamine*
+
+:   5/21/2024
+
+:   Quarto Github Basics
 
 ## Writing Test
 
